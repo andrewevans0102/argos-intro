@@ -115,8 +115,8 @@ export async function deleteContact(id: string) {
     },
     {
         avatar: '',
-        first: 'Hello',
-        last: 'User',
+        first: 'George',
+        last: 'Smith',
     },
 ].forEach((contact) => {
     fakeContacts.create({
