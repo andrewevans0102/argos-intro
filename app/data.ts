@@ -113,11 +113,6 @@ export async function deleteContact(id: string) {
         first: 'Harvey',
         last: 'Evans',
     },
-    {
-        avatar: '',
-        first: 'John',
-        last: 'Smith',
-    },
 ].forEach((contact) => {
     fakeContacts.create({
         ...contact,
