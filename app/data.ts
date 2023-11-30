@@ -115,7 +115,7 @@ export async function deleteContact(id: string) {
     },
     {
         avatar: '',
-        first: 'George',
+        first: 'John',
         last: 'Smith',
     },
 ].forEach((contact) => {
